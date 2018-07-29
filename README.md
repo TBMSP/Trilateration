@@ -74,6 +74,6 @@ public class Main{
 LatLon: -20.543330689197, -69.276067574908
 ```
 
-***Autor:*** <a href="https://twitter.com/">@TBMSP</a>
-<a href="http://tbmsp.net">TBM SP</a>
+***Autor:*** <a href="https://twitter.com/TBMSP">@TBMSP</a>
+<a href="http://tbmsp.net/">TBM SP</a>
 <soporte@tbmsp.net>
