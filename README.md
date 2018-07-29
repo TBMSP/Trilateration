@@ -1,6 +1,13 @@
 # Trilateration
 Trilateration system using 3 latitude and longitude points, and 3 radius distances in PHP, C#, Java and Javascript
 
+Where can Trilateration and Triangulation be used in general?
+- Get the location of a device that sends signals to an antenna (GPS).
+- Get the location of any device connected to a Wi-Fi network.
+- Get the epicenter of seismic events (Earthquakes).
+
+And several other uses, with this library so simple you can perform the calculation, of course, this library does not know the parameters and these have to apply to you.
+
 ---
 ### Class parameters and functions
 ***Point Class:***
