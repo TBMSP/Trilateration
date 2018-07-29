@@ -1,0 +1,28 @@
+<!--
+ * This file is part of the Trilateration package.
+ *
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * @author Matias Gutierrez <soporte@tbmsp.net>
+ * @file index.html
+ *
+ * Project home:
+ *   https://github.com/tbmsp/trilateration
+ *
+ -->
+<!DOCTYPE html>
+<html>
+<body>
+<p id="latlon"></p>
+<script src="Trilateration.js"></script> 
+<script>
+var p1=[-19.6685,-69.1942,84];
+var p2=[-20.2705,-70.1311,114];
+var p3=[-20.5656,-70.1807,120];
+var a=Compute(p1,p2,p3);
+document.getElementById("latlon").innerHTML="LatLon: "+a;
+</script>
+</body>
+</html>
