@@ -1,5 +1,5 @@
 # Trilateration
-Trilateration system using 3 latitude and longitude points, and 3 radius distances in PHP, C# and Java
+Trilateration system using 3 latitude and longitude points, and 3 radius distances in PHP, C#, Java and Javascript
 
 ---
 ### Class parameters and functions
@@ -68,6 +68,30 @@ public class Main{
     System.out.print("LatLon: "+a[0]+", "+a[1]);
   }
 }
+```
+### Result
+```
+LatLon: -20.543330689197, -69.276067574908
+```
+
+---
+### Javascript Version Example
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="latlon"></p>
+    <script src="Trilateration.js"></script> 
+    <script>
+      //Array[Latitude,Longitude,RadiusDistanceInKilometers]
+      var p1=[-19.6685,-69.1942,84];
+      var p2=[-20.2705,-70.1311,114];
+      var p3=[-20.5656,-70.1807,120];
+      var a=Compute(p1,p2,p3);
+      document.getElementById("latlon").innerHTML="LatLon: "+a;
+    </script>
+  </body>
+</html>
 ```
 ### Result
 ```
