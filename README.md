@@ -18,6 +18,7 @@ Compute(Point1,Point2,Point3);
 ---
 ### PHP Version Example
 ```php
+<?php
 require("Point.php");
 require("Trilateration.php");
 $p1=new Point(-19.6685,-69.1942,84);
@@ -26,6 +27,7 @@ $p3=new Point(-20.5656,-70.1807,120);
 $a=new Trilateration();
 $b=$a->Compute($p1,$p2,$p3);
 echo "LatLon: ".$b[0].", ".$b[1];
+?>
 ```
 ### Result
 ```
