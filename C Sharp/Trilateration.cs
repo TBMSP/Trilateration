@@ -34,7 +34,7 @@ h=(Math.Pow(B(A(D(p1.gr()))),2)-Math.Pow(b[2],2)-Math.Pow(g,2)+Math.Pow(g-b[0],2
 i=C(g,h,0,-f);
 i[0]=i[0]+p1.glt()-0.086;
 i[1]=i[1]+p1.gln()-0.004;
-k=E(i[0],i[1],p1.glt(),p1.gln();
+k=E(i[0],i[1],p1.glt(),p1.gln());
 if(k>p1.gr()*2){i=null;}else{
 if(i[0]<-90||i[0]>90||i[1]<-180||i[1]>180){i=null;}}
 return i;
